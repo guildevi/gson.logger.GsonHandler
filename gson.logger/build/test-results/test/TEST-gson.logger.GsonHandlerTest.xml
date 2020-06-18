@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gson.logger.GsonHandlerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-18T11:32:26" hostname="Guillaumes-MBP" time="0.039">
+  <properties/>
+  <testcase name="test" classname="gson.logger.GsonHandlerTest" time="0.039"/>
+  <system-out><![CDATA[{"00000000":{"timestamp":"2020-06-18 13:32:26.103 CEST","level":"SEVERE","class":"java.util.logging.LogRecord","method":"test","message":"SEVERE TEST"},"00000001":{"timestamp":"2020-06-18 13:32:26.114 CEST","level":"WARNING","class":"java.util.logging.LogRecord","method":"test","message":"WARN TEST"}}
+{}
+]]></system-out>
+  <system-err><![CDATA[Jun 18, 2020 1:32:26 PM gson.logger.GsonHandlerTest test
+SEVERE: SEVERE TEST
+]]></system-err>
+</testsuite>
