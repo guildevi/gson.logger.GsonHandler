@@ -25,6 +25,7 @@ public class GsonHandler extends Handler {
 
 	@Override
 	public void publish(LogRecord record) {
+		if(!this.isLoggable(record)) return;
 		if(METHOD==null) return;
 		JsonObject jsonRecord = new JsonObject();
 		jsonRecord.addProperty("timestamp", dateFormat.format(new Date(record.getMillis())));
